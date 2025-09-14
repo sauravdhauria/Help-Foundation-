@@ -30,8 +30,9 @@ def prediction(input_list):
     
 def main():
     
-    st.title('HELP NGO FOUNDATION')
-    st.subheader('This application will give the status of a country based on socio-econimic and heath factors')
+    st.title('🌟 𝓗𝓔𝓛𝓟 𝓝𝓖𝓞 𝓕𝓞𝓤𝓝𝓓𝓐𝓣𝓘𝓞𝓝 🌟
+            🌈 Humanity | Empowerment | Hope 🌈❤️ Strong Impact')
+    st.subheader('This application will give the status of a country based on social-econimic and heath factors')
     
     gdp = st.text_input('Enter the the GDP per Population of a country')
     inc = st.text_input('Enter the the per capita income of a country')
@@ -52,3 +53,4 @@ def main():
         
 if __name__=='__main__':
     main()
+
